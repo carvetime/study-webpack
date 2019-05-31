@@ -1,0 +1,32 @@
+
+<html>
+  <head>
+    <title>Getting Started</title>
+    <!-- <script src="https://unpkg.com/lodash@4.16.6"></script> -->
+    <!-- 
+      传统的引入方式
+      index.js的文件隐式依赖 本页面script脚本引入
+      1. 不能立即体现
+      2. 如果依赖下载失败或出错就会导致整个程序无法运行
+      3. 如果没有使用，就造成不必要的下载 
+    -->
+  </head>
+  <body>
+
+    <!-- 引入传统方式的js文件 -->
+    <!-- <script src="./src/index.js"></script> -->
+
+    <!-- 使用webpack根据./src/index.js文件打包压缩后的文件成bounde.js，并放在dist文件夹下和index.html同级，因此html直接引用打包压缩后的bounde.js文件 -->
+    <script src="bundle.js"></script>
+
+    <!--
+      然后我们通过命令行执行 
+      ./node_modules/.bin/webpack --config webpack.config.js
+      或
+      npx webpack --config webpack.config.js
+      或
+      package.json 添加 "build": "webpack"，执行 npm run build
+      最后通过浏览器打开index.html文件就可以看到index.js创建出来的div标签 
+    -->
+  </body>
+</html>
