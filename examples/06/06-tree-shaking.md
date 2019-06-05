@@ -80,3 +80,5 @@ return r.d(t,"a",t),t},r.o=function(e,t){return Object.prototype.hasOwnProperty.
 我们发现这里面只有test1方法，并没有发现test2方法，说明在生产环境下无用代码没有被打包进来。
 
 看上去只要我们直接生产环境打包就tree shaking就会自动删除无用代码，但tree shaking还是存在局限和不足，比如在某些情况下不能做到完全移除无用代码的情况，以及它建立在静态语法分析的基础上，需要确保代码没有使用或编译成CommonJS模块，这个留到后期再进一步解析。
+
+[github代码](https://github.com/carvetime/study-webpack)
