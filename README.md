@@ -9,3 +9,4 @@ webpack的入门知识
 4. [代码分离](https://github.com/carvetime/study-webpack/blob/master/examples/04/04-%E4%BB%A3%E7%A0%81%E5%88%86%E7%A6%BB.md)
 5. [缓存](https://github.com/carvetime/study-webpack/blob/master/examples/05/05-%E7%BC%93%E5%AD%98.md)
 6. [Tree shaking](https://github.com/carvetime/study-webpack/blob/master/examples/06/06-tree-shaking.md)
+7. [生产环境](https://github.com/carvetime/study-webpack/blob/master/examples/07/07-%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83.md)
