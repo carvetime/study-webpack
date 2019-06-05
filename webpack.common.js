@@ -4,18 +4,17 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    mode: 'development',
     entry: {
-        index:'./examples/06/code/src/index.js'
+        index:'./examples/07/code/src/index.js'
     },
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-        title: 'tree shaking'
+        title: 'Product'
         })
       ],
     output: {
         filename: '[name].[contenthash].bundle.js',
-        path: path.resolve(__dirname, 'examples/06/code/dist')
+        path: path.resolve(__dirname, 'examples/07/code/dist')
     }
 }
